@@ -1,0 +1,210 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: white;
+  opacity: 98%;
+  box-shadow: 0 0 8px 1px rgba(146, 146, 146, 0.137);
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+  padding: 0 8px;
+}
+#dropdown {
+  display: none;
+  position: absolute;
+  width: 180px;
+  background-color: white;
+}
+
+#menu:hover #dropdown {
+  display: block;
+  box-shadow: 0 5px 8px 3px rgb(235, 235, 235);
+}
+
+nav div {
+  position: relative;
+}
+
+#Intro-Part {
+  margin: 120px 20% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Intro-Part div {
+  display: flex;
+}
+#Intro-Part div p {
+  padding: 10px;
+}
+
+h2 {
+  color: #00ccb1;
+}
+
+#Boxes {
+  display: flex;
+  margin: 50px 20% 0;
+}
+#box1 {
+  background-color: #00ccb1;
+  color: white;
+  width: 310px;
+  height: 320px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#box2 {
+  background-color: #3d83df;
+  color: white;
+  width: 310px;
+  height: 320px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#box3 {
+  background-color: #1b2734;
+  color: white;
+  width: 310px;
+  height: 320px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+select {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+option {
+  color: black;
+}
+
+#logos {
+  margin: 120px 20% 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#logos h2 {
+  width: 300px;
+  margin-right: 50px;
+}
+svg {
+  width: 150px;
+  padding: 10px;
+  fill: rgb(182, 182, 182);
+}
+svg:hover {
+  fill: #00ccb1;
+}
+
+#green {
+  display: flex;
+  background-color: #dcf7f7;
+  padding: 0 15%;
+}
+#green h2 {
+  padding-top: 50px;
+}
+#green p {
+  font-size: 16px;
+}
+#hidden {
+  overflow: hidden;
+  height: 600px;
+  width: 500px;
+  margin: 0 100px 0 0;
+}
+#logo {
+  padding-top: 60px;
+}
+#white-boxes {
+  display: flex;
+}
+#whiteBoxes1 {
+  margin-top: 30px;
+}
+
+.whiteBox {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 20px 0 0;
+  width: 180px;
+  height: 220px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#paragraph {
+  text-align: center;
+  margin: 3% auto;
+  width: 500px;
+}
+
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 20%;
+}
+#country {
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.11);
+  margin: 20px 20px 0 0;
+}
+#country img {
+  border-radius: 10px 10px 0 0;
+}
+#country:hover {
+  box-shadow: 0 10px 20px 20px rgba(128, 128, 128, 0.11);
+}
+.btn-div {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-div button {
+  margin: 15px 0;
+  height: 30px;
+  background-color: #3d83df;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#question {
+  text-align: center;
+  padding: 50px 0;
+}
+#question button {
+  height: 30px;
+  background-color: #3d83df;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+hr {
+  border-top: black;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 3% 20% 0 20%;
+}
+p::selection {
+  background-color: #00ccb1;
+}
